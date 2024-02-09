@@ -228,3 +228,84 @@
 // console.log(getElementWidth("50px", "8px", "4px")); // 74
 // console.log(getElementWidth("60px", "12px", "8.5px")); // 101
 // console.log(getElementWidth("200px", "0px", "0px")); // 200
+
+// -----------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------
+
+
+// let price = 0
+// const sub = 'pro'
+
+// if(sub === 'pro') {
+//     // якщо sub = 'pro', тоді price = 100
+//     price = 100;
+// }
+
+// console.log(price);
+
+// function checkAge(age) {
+
+//     if(age >= 18) {
+//         return "You are an adult";
+//     }        
+// }
+
+// console.log(checkAge(20));
+// console.log(checkAge(17));
+// console.log(checkAge(10));
+// console.log(checkAge(30));
+
+// function checkStorage(available, ordered) {
+
+// if(ordered > available) {
+//     return "Not enough goods in stock!"
+// } else {
+//     return "Order is processed, our manager will contact you"
+// }
+
+// }
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 150));
+// console.log(checkStorage(150, 180));
+
+
+
+// const age = 100
+// ;
+
+// if(age >= 90){
+//      console.log('Perfect');
+// } else if(age >= 80) {
+//      console.log('Good');
+// } else {
+//      console.log('Fatal');
+// }
+
+// console.log(age);
+
+
+function checkStorage(available, ordered) {
+if (ordered === 0) 
+{
+    return "There are no products in the order!";
+    
+} else if (ordered > available) {
+    return "Your order is too large, there are not enough items in stock!";
+    
+} else {
+    return "The order is accepted, our manager will contact you";
+}
+}
+
+console.log(checkStorage(100, 50));
+console.log(checkStorage(100, 130));
+console.log(checkStorage(70, 0));
+console.log(checkStorage(200, 20));
+console.log(checkStorage(200, 250));
+console.log(checkStorage(150, 0));
+console.log(checkStorage(80, 80));
+
+
