@@ -1,14 +1,6 @@
 // це спеціальний режим виконання коду, який дає змогу переводити скрипт у режим повної відповідності сучасному стандарту
 'use strict';
 
-
-
-
-
-
-
-
-
 // const pricePerDroid = 800;
 // const orderedQuantity = 6;
 // const deliveryFee = 50;
@@ -25,18 +17,17 @@
 
 // const username = "Poly";
 // // задав нову змінну та надав їй значення імя+довжина рядка
-// const userName = username.length; 
+// const userName = username.length;
 // //                                 нова змінна з довжиною рядка
 // const message = `Username ${username} is ${userName} characters long`;
 // console.log(message);
-
 
 // const userName = 'Dmitriy Lysenko'
 
 // const usernamelength = userName.length -1;
 
 // const firstElement = userName[14]
-// const lastElement = userName.length 
+// const lastElement = userName.length
 
 // console.log(userName[usernamelength]);
 // console.log(usernamelength);
@@ -48,14 +39,12 @@
 
 // console.log(isAdult);
 
-
 // const correctPassword = "jqueryismyjam";
 // const userPassword = "mangodab3st";
 
 // const isValid = correctPassword == userPassword;
 
 // console.log(isValid);
-
 
 // console.log(Number.parseInt(5));
 // console.log(Number.parseInt(26.21454));
@@ -100,19 +89,16 @@
 // }
 // doStuff();
 
-
 // function toSel() {
-    
+
 //     console.log('you must sel product');
-    
-    
+
 // }
 
 // toSel();
 
-
 // function add(a, b, c) {
-     
+
 //     console.log(`Addition result equals ${a + b + c}`);
 // }
 
@@ -138,9 +124,6 @@
 // function foo() {
 //     let value = ' i am a boss'
 //     console.log(value);
-
-     
-
 
 // }
 // foo()
@@ -179,20 +162,16 @@
 // calculateTotalPrice(12, 70)
 // console.log(calculateTotalPrice(12, 70));
 
-
 // function makeTransaction(quantity, pricePerDroid) {
 
 // const totalPrice = quantity * pricePerDroid
 
 //     return `"You ordered ${quantity} droids worth ${totalPrice} credits!"`
 
-
-
 // }
 // console.log(makeTransaction(5, 3000)); // "You ordered 5 droids worth 15000 credits!"
 // console.log(makeTransaction(3, 1000)); // "You ordered 3 droids worth 3000 credits!"
 // console.log(makeTransaction(10, 500)); // "You ordered 10 droids worth 5000 credits!"
-
 
 // function getShippingMessage(country, price, deliveryFee) {
 
@@ -200,15 +179,11 @@
 
 //     return `"Shipping to ${country} will cost ${totalPrice} credits"`
 
-
-
 // }
 
 // console.log(getShippingMessage("Australia", 120, 50)); // "Shipping to Australia will cost 170 credits"
 // console.log(getShippingMessage("Germany", 80, 20)); // "Shipping to Germany will cost 100 credits"
 // console.log(getShippingMessage("Sweden", 100, 20)); // "Shipping to Sweden will cost 120 credits"
-
-
 
 // function getElementWidth(content, padding, border) {
 
@@ -218,10 +193,6 @@
 
 //     const allSize = newContent + newPadding * 2 + newBorder * 2
 //     return allSize
-
-
-
-
 
 // }
 
@@ -233,7 +204,6 @@
 // -----------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------
-
 
 // let price = 0
 // const sub = 'pro'
@@ -249,7 +219,7 @@
 
 //     if(age >= 18) {
 //         return "You are an adult";
-//     }        
+//     }
 // }
 
 // console.log(checkAge(20));
@@ -271,8 +241,6 @@
 // console.log(checkStorage(200, 150));
 // console.log(checkStorage(150, 180));
 
-
-
 // const age = 100
 // ;
 
@@ -286,26 +254,202 @@
 
 // console.log(age);
 
+// function checkStorage(available, ordered) {
+// if (ordered === 0)
+// {
+//     return "There are no products in the order!";
 
-function checkStorage(available, ordered) {
-if (ordered === 0) 
-{
-    return "There are no products in the order!";
-    
-} else if (ordered > available) {
-    return "Your order is too large, there are not enough items in stock!";
-    
-} else {
-    return "The order is accepted, our manager will contact you";
-}
+// } else if (ordered > available) {
+//     return "Your order is too large, there are not enough items in stock!";
+
+// } else {
+//     return "The order is accepted, our manager will contact you";
+// }
+// }
+
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(70, 0));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 250));
+// console.log(checkStorage(150, 0));
+// console.log(checkStorage(80, 80));
+
+// let type;
+// const age = 10;
+
+// if(age >= 18){
+//     type = 'adult'
+// } else {
+//     type = 'child'
+// }
+// console.log(type);
+
+// const age = 10;
+// const type = age >=18 ? 'adult' : 'child'
+// console.log(type);
+
+// const x = 7
+// const y = 5
+// const bigger = x > y ? x : y
+// console.log(bigger);
+
+// function checkPassword(password) {
+//     const correctPassword = "jqueryismyjam";
+
+//     const corPass = password == correctPassword ? "Access granted" : "Access denied, wrong password!"
+//     return corPass
+
+//   }
+
+//   console.log(checkPassword("jqueryismyjam"));
+//   console.log(checkPassword("angul4r1sl1f3"));
+//   console.log(checkPassword("r3actsux"));
+
+// const fruit  = 'apple'
+
+// switch(fruit) {
+//     case 'apple':
+//         console.log('Apple selected');
+//     break;
+
+//     case 'Watermellon':
+//         console.log('Wattermellon selected');
+//     break;
+
+//     default :
+//         console.log('No way!!!');
+// }
+
+// function getSubscriptionPrice(type) {
+
+// switch(type) {
+//     case'starter':
+//     type = 0;
+//     return type
+//     break;
+
+//     case 'professional':
+//     type = 20;
+//     return type
+//     break;
+
+//     case 'organization':
+//     type = 50;
+//     return type
+//     break;
+
+//     default:
+//         return "Invalid subscription type!"
+// }
+
+// }
+// console.log(getSubscriptionPrice("professional"));
+// console.log(getSubscriptionPrice("organization"));
+// console.log(getSubscriptionPrice("starter"));
+// console.log(getSubscriptionPrice("random"));
+// console.log(getSubscriptionPrice("premium"));
+
+// function isNumberInRange(start, end, number) {
+//   return number >= start && number <= end
+// }
+
+// console.log(isNumberInRange(10, 30, 17));
+// console.log(isNumberInRange(10, 30, 5));
+// console.log(isNumberInRange(20, 50, 24));
+// console.log(isNumberInRange(20, 50, 76));
+
+
+// function checkAccess(subType) {
+
+// if(subType == 'pro' || subType == 'vip') {
+//     return true
+// } else {
+//     return false
+// }
+
+
+// }
+// console.log(checkAccess("pro"));
+// console.log(checkAccess("starter"));
+// console.log(checkAccess("vip"));
+// console.log(checkAccess("free"));
+
+
+
+
+// function toggleModalVisibility(isVisible) {
+
+// if(!isVisible == false) {
+//     return false
+// } else {
+//     return true
+// }
+
+
+
+// }
+
+
+// console.log(toggleModalVisibility(true));
+// console.log(toggleModalVisibility(false));
+
+
+
+// function getSubstring(string, length) {
+
+//     return string.slice(0, length)
+//  // Доповни код функції так, щоб вона повертала новий підрядок, який починається від початку string і має довжину length.
+
+// }
+// console.log(getSubstring("Hello world", 3));
+// console.log(getSubstring("Hello world", 5));
+// console.log(getSubstring("Hello world", 8));
+// console.log(getSubstring("Hello world", 11));
+// console.log(getSubstring("Hello world", 0));
+
+
+
+function normalizeInput(input, to) {
+    const upInput = input.toUpperCase()
+    if(to === 'upper') {
+        return upInput
+    } else { 
+        return input.toLowerCase()
+    }
+
 }
 
-console.log(checkStorage(100, 50));
-console.log(checkStorage(100, 130));
-console.log(checkStorage(70, 0));
-console.log(checkStorage(200, 20));
-console.log(checkStorage(200, 250));
-console.log(checkStorage(150, 0));
-console.log(checkStorage(80, 80));
+console.log(normalizeInput("This ISN'T SpaM", "lower"));
+console.log(normalizeInput("This ISN'T SpaM", "upper"));
+console.log(normalizeInput("Big SALE", "lower"));
+console.log(normalizeInput("Big SALE", "upper"));
+console.log(normalizeInput("Stay Awhile and Listen", "lower"));
+console.log(normalizeInput("Stay Awhile and Listen", "upper"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
